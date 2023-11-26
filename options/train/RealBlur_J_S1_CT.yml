@@ -53,14 +53,14 @@ network_g:
   LayerNorm_type: WithBias
   dual_pixel_task: False
   embed_dim: 64
-  group: 1 # N=4*4
+  group: 4 # N=4*4
 
 network_le:
   type: latent_encoder_lrelu
   in_chans: 6
   embed_dim: 64 # same as above
   block_num: 5 
-  group: 1 # same as above
+  group: 4 # same as above
   stage: 1
   patch_expansion: 0.5
   channel_expansion: 1
