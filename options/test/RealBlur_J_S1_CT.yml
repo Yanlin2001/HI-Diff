@@ -40,7 +40,7 @@ network_le:
   group: 4 # same as above
   stage: 1
   patch_expansion: 0.5
-  channel_expansion: 4
+  channel_expansion: 1
 
 network_le_dm:
   type: latent_encoder_lrelu
@@ -50,7 +50,7 @@ network_le_dm:
   group: 4 # same as above
   stage: 2
   patch_expansion: 0.5
-  channel_expansion: 4
+  channel_expansion: 1
 
 network_d:
   type: simple_denoise
