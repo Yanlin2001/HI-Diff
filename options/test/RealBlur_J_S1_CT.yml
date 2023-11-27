@@ -1,5 +1,5 @@
 # general settings
-name:  test_HI_Diff_RealBlur_J
+name:  test_HI_Diff_RealBlur_J-blur
 model_type: HI_Diff_S1
 scale: 1
 num_gpu: 1  # set num_gpu: 0 for cpu mode
