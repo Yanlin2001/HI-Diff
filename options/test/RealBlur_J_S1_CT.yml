@@ -1,6 +1,6 @@
 # general settings
 name:  test_HI_Diff_RealBlur_J
-model_type: HI_Diff_S2
+model_type: HI_Diff_S1
 scale: 1
 num_gpu: 1  # set num_gpu: 0 for cpu mode
 manual_seed: 100
@@ -8,7 +8,7 @@ manual_seed: 100
 # dataset and data loader settings
 datasets:
   test_1:  # the 3st test dataset
-    name: RealBlur_J
+    name: CT-SUB
     type: PairedImageIRDataset
     dataroot_gt: /kaggle/input/ct-sub/CT-SUB
     dataroot_lq: /kaggle/input/ct-sub/CT-SUB
