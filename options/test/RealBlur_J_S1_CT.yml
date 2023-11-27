@@ -11,7 +11,7 @@ datasets:
     name: CT-SUB
     type: PairedImageIRDataset
     dataroot_gt: /kaggle/input/ct-sub/CT-SUB
-    dataroot_lq: /kaggle/input/ct-sub/CT-SUB
+    dataroot_lq: /kaggle/input/ct-sub-blur/SUB
     filename_tmpl: '{}'
     io_backend:
       type: disk
